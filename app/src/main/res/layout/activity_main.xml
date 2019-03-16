@@ -12,18 +12,21 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/btn_r"
-        android:background="@color/red"/>
+        android:background="@color/red"
+        android:tag="0"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/btn_g"
-        android:background="@color/green"/>
+        android:background="@color/green"
+        android:tag="0"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/btn_b"
-        android:background="@color/blue"/>
+        android:background="@color/blue"
+        android:tag="0"/>
 
 </LinearLayout>
